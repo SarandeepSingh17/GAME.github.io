@@ -116,8 +116,8 @@ function moveball()
         x=!x;
     }
 
-    ball.style.top= y==true?ballTop+4+"px":ballTop-4+"px";
-    ball.style.left= x==true?ballLeft+4+"px":ballLeft-4+"px";
+    ball.style.top= y==true?ballTop+6+"px":ballTop-6+"px";
+    ball.style.left= x==true?ballLeft+6+"px":ballLeft-6+"px";
     requestAnimationFrame(moveball);
 
 }
